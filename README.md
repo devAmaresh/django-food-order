@@ -1,29 +1,99 @@
-# Foodplaza
+# Online Food Ordering System
 
-  The purpose of Online Food Ordering System is to automate the existing manual system by the help of computerized equipment’s and full-fledged computer software, fulfilling their requirements, so that their valuable data/information can be stored for a longer period with easy accessing and manipulation of the same. The required software and hardware are easily available and easy to work with.
-    
-  Online Food Ordering System, as described above, can lead to error free, secure, reliable and fast management system. It can assist the user to concentrate on their other activities rather to concentrate on the record keeping. Thus it will help organization in better utilization of resources. The organization can maintain computerized records without redundant entries. That means that one need not be distracted by information that is not relevant, while being able to reach the information.
-  
-  The aim is to automate its existing manual system by the help of computerized equipment’s and full-fledged computer software, fulfilling their requirements, so that their valuable data/information can be stored for a longer period with easy accessing and manipulation of the same. Basically the project describes how to manage for good performance and better services for the clients.
+The Online Food Ordering System aims to automate the existing manual system by utilizing computerized equipment and full-fledged computer software. This system facilitates the storage of valuable data/information for a longer period, allowing for easy access and manipulation. With readily available software and hardware, the system ensures error-free, secure, reliable, and fast management.
 
-  The "FoodPlaza" has been practiced to override the prevalent problems in manual systems. This website is compatible to finalize and, in some cases, reduce the difficulties faced by this existing system. In addition, the system is designed to function smoothly and effectively for the special needs of the company.
-  
-  The website is minimized as much as possible to avoid errors when entering data. It also gives an error message when entering invalid data. No formal knowledge is required for the user to use this system. Therefore, every test is easy to use. Online food order systems, as described above, can lead to error-free, safe, reliable and fast management systems. This can help the user focus on his other activities instead of focusing on record keeping. Therefore, it will help the organization to make better use of resources.
+## Purpose
 
+The purpose of this project is to:
 
------------------------------------------------
-`<url>/admin` (Database Backend)<br>
-id = 'cosmix' | pass = 'admin'<br>
-Register for admin login in database backend!!
+- Automate the existing manual system using computerized equipment and software.
+- Store valuable data/information for easy access and manipulation.
+- Improve resource utilization and efficiency.
+- Minimize errors and streamline processes.
 
------------------------------------------------
-Register New account for login as user
------------------------------------------------
-__Project Focus On :__ Python<br>
-## A web application
+## Features
 
-__Language Used:__
- + __frontend :__ #HTML, #CSS, #JS
- + __backend :__ #Python3 #Django #Sqlite3
+- Error-free data management
+- Secure and reliable system
+- Fast and efficient services
+- Easy access to information
+- Simplified user interface
+- Compatibility with existing systems
 
-Extra Theme for app available in Template Test folder(used online Bootstrap)*
+## Functionality
+
+The "FoodPlaza" website is designed to:
+
+- Address prevalent problems in manual systems
+- Minimize errors during data entry
+- Provide error messages for invalid data
+- Ensure ease of use for users without formal knowledge
+- Function smoothly for the special needs of the company
+
+## Usage
+
+To run the Online Food Ordering System locally, follow these steps:
+
+1. **Clone the repository**: 
+
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    ```
+
+2. **Navigate to the project directory**:
+
+    ```bash
+    cd your-repository
+    ```
+
+3. **Create a virtual environment** (optional but recommended):
+
+    ```bash
+    python -m venv venv
+    ```
+
+4. **Activate the virtual environment**:
+
+    - Command Prompt:
+
+        ```bash
+        venv\Scripts\activate
+        ```
+
+    - PowerShell:
+
+        ```bash
+        .\venv\Scripts\Activate.ps1
+        ```
+
+5. **Install requirements**:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+6. **Run migrations** (if needed):
+
+    ```bash
+    python manage.py migrate
+    ```
+
+7. **Run the development server**:
+
+    ```bash
+    python manage.py runserver
+    ```
+
+8. **Access the website**:
+
+    Open a web browser and go to `http://127.0.0.1:8000` to access the Online Food Ordering System.
+
+## Homepage
+
+The homepage of the Online Food Ordering System provides an overview of available features and services. Users can access various functionalities such as browsing menus, placing orders, and managing accounts.
+
+## Conclusion
+
+The Online Food Ordering System offers a modern solution to traditional manual systems, ensuring efficient management of food orders and customer accounts. With its user-friendly interface and streamlined processes, it enhances the overall experience for both customers and administrators.
+
+For further information and inquiries, please visit the homepage of the Online Food Ordering System.
