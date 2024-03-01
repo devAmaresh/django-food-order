@@ -88,6 +88,14 @@ To run the Online Food Ordering System locally, follow these steps:
 
     Open a web browser and go to `http://127.0.0.1:8000` to access the Online Food Ordering System.
 
+9. **Access the admin**:
+
+    Open a web browser and go to `http://127.0.0.1:8000/admin` to access the admin of Online Food Ordering System.
+id = 'cosmix' | pass = 'admin'
+Register for admin login in database backend!!
+
+
+
 ## Homepage
 
 The homepage of the Online Food Ordering System provides an overview of available features and services. Users can access various functionalities such as browsing menus, placing orders, and managing accounts.
